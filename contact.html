@@ -268,7 +268,7 @@
 									<button class="btn-style-one theme-btn">
 										
 										<span class="btn-wrap">
-											<input type="button" value="Submit" onclick="sendEmail()">
+											<input type="button" value="" onclick="sendEmail()">Submit
 											<!-- <span class="text-one" type="submit">Submit <i class=""></i></span> -->
 											<!-- <span class="text-two" type="submit">Submit <i class=""></i></span> -->
 										</span> 
@@ -291,7 +291,7 @@
 			let phone =document.getElementById("phone").value;
 			let message =document.getElementById("message").value;
 
-			let body ="Name:" + name + "<br/> Phone:" + Phone + "<br/> Message:"+ Message;
+			let body ="name:" + name + "<br/> phone:" + phone + "<br/> message:"+ message;
 		
 			Email.send({
 				SecureToken : "ef9bcd34-d5a5-4745-86e7-f4ea37082938 ",
